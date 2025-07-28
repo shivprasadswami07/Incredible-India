@@ -1,0 +1,111 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
+header {
+  background-color: #6facdbb6;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+}
+
+
+.logo-container img {
+  height: 70px;
+  width: 150px;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+
+#first {
+  background-image: url(https://i.pinimg.com/736x/4b/84/89/4b84892bb493ca6443d5f47cb9a1c6b2.jpg);
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+#two {
+  background-color: bisque;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+#three {
+  background-color: bisque;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+#four {
+  background-color:bisque;
+  align-items: center;
+  display: block;
+}
+#five {
+  margin: 0%;
+  padding: 0%;
+}
+
+#six {
+  /* background-image: url(labguage2.jpg); */
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#seven {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+}
+
+#eight {
+  background-color: bisque;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#nine {
+  background-image: url(https://cdn.penguin.co.in/wp-content/uploads/2017/03/blog-banner2.png);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+}
+#ten {
+  background-color: bisque;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}

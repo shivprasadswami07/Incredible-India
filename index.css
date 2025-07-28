@@ -1,0 +1,328 @@
+
+body {
+  background-image: url('gate.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #6facdbb6;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.logo-container img {
+  height: 70px;
+  width: 150px;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffcc00;
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 15px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  transition: 0.4s ease-in-out;
+}
+
+.hero-text h1:hover {
+  color: #00ffcc;
+  text-shadow: 0 0 10px #0073ff, 0 0 20px #00ffcc;
+}
+
+.hero-text p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+
+.btn {
+  background-color: #ffcc00;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+  animation: pulse 0.6s ease;
+}
+
+.about {
+  color: transparent;
+  padding: 50px 20px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideIn 1.2s ease forwards;
+  animation-delay: 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about h2 {
+  background: radial-gradient(red,blue);
+  color:transparent;
+  background-clip: text;
+  font-size: 42px;
+  margin-bottom: 20px;
+  animation: bounceIn 1s ease;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #222;
+  transition: all 0.4s ease;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about p:hover {
+  transform: scale(1.02);
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #000;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+
+.culture {
+  background-color: #e1edff;
+  padding: 50px 20px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideIn 1.2s ease forwards;
+  animation-delay: 0.6s;
+}
+
+.culture h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  animation: bounceIn 1s ease;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #6facdb;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05) rotateZ(1deg);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+}
+
+
+.india-gate {
+  background-image: url('nature.jpg');
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fffaf0;
+  padding: 30px;
+}
+
+.gate-image img {
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.gate-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.gate-text h2 {
+  font-size: 22px;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.gate-text p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 30px 20px 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-about, .footer-links, .footer-social {
+  flex: 1 1 250px;
+}
+
+.footer h3, .footer h4 {
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  color: #e81111;
+  text-decoration: underline;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 9px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(30px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
